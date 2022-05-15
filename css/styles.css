@@ -28,6 +28,10 @@ main {
 .logo-web {
     color: var(--accent-color);
 }
+.logo-studio {
+    color: var(--white-color)
+}
+
 ul{
     list-style: none;
 }
@@ -120,6 +124,9 @@ ul{
 }
  .staff-name {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 .staff  a {
     text-decoration: none;
@@ -153,6 +160,7 @@ footer {
 
 .nav-btn {
     cursor: pointer;
+    font-family: Roboto , sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
